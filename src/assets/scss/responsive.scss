@@ -1,0 +1,16 @@
+:root {
+  --menu-paper-width: 1400px;
+  --border-line-color: #bcbcbcbc;
+}
+
+@media screen and (max-width: 1440px) {
+  :root {
+    --menu-paper-width: 1318px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --menu-paper-width: inherit;
+  }
+}
